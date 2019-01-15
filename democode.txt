@@ -1,0 +1,11 @@
+node{
+stage('preparation'){
+echo 'Pulling code from repo...'
+}
+stage('build'){
+echo 'This is build'
+}
+stage('deploy'){
+echo 'This is deploy'
+}
+}
